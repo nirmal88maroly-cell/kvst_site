@@ -1,0 +1,48 @@
+/* ==========================================================================
+   layout.css
+   KV SecureTech Innovations
+   Layout System
+   ========================================================================== */
+
+body{font-family:var(--font-family-base);font-size:var(--font-size-md);line-height:var(--line-height);color:var(--color-text);background:var(--color-bg);}
+.container{width:min(100% - (2 * var(--container-padding)), var(--container-width));margin-inline:auto;}
+.section{padding-block:var(--section-padding);}
+.section-dark{background:var(--color-primary-dark);color:#fff;}
+.hero{padding:7rem 0;}
+.content{max-width:760px;}
+.section-heading{text-align:center;margin-bottom:var(--space-8);}
+.grid{display:grid;gap:var(--space-6);grid-template-columns:repeat(12,1fr);}
+.col-4{grid-column:span 4;}
+.col-6{grid-column:span 6;}
+.stats,.footer-grid{display:grid;gap:var(--space-5);}
+.stats{grid-template-columns:repeat(4,1fr);}
+.footer-grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));}
+header{position:sticky;top:0;z-index:var(--z-header);background:var(--color-bg);border-bottom:1px solid var(--color-border);}
+nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:var(--space-5);}
+.nav-links{display:flex;gap:var(--space-5);align-items:center;}
+.hero-buttons{display:flex;gap:var(--space-4);flex-wrap:wrap;margin-top:var(--space-6);}
+.form-group{display:flex;flex-direction:column;gap:var(--space-2);margin-bottom:var(--space-4);}
+@media (max-width:900px){
+  .grid{grid-template-columns:1fr;}
+  .col-4,.col-6{grid-column:span 1;}
+  .stats{grid-template-columns:repeat(2,1fr);}
+
+  nav{flex-wrap:wrap;}
+
+  .logo{order:1;}
+  .nav-toggle{display:flex;order:2;}
+  nav > .btn{order:3;}
+
+  .nav-links{
+    order:4;
+    display:none;
+    width:100%;
+    flex-direction:column;
+    align-items:center;
+    gap:var(--space-4);
+    padding-block:var(--space-5);
+  }
+
+  .nav-links.active{display:flex;}
+}
+@media (max-width:600px){.hero{padding:5rem 0;}.section{padding-block:3.5rem;}.stats{grid-template-columns:1fr;}.hero-buttons{flex-direction:column;}}

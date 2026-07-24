@@ -1,0 +1,21 @@
+# ==========================================================
+# robots.txt
+# Kalpavriksha SecureTech Innovations
+# https://www.kvsecuretech.com/
+# ==========================================================
+
+User-agent: *
+
+# Allow all public pages
+Allow: /
+
+# Block system or development folders (if they exist)
+# Note: CSS/JS/assets are intentionally NOT blocked — search engines
+# need them to render pages and evaluate mobile-friendliness.
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /temp/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://www.kvsecuretech.com/sitemap.xml

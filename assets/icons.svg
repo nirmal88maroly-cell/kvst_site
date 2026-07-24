@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+    <!-- ===================================================== -->
+    <!-- Menu -->
+    <!-- ===================================================== -->
+    <symbol id="menu" viewBox="0 0 24 24">
+        <path d="M4 6H20M4 12H20M4 18H20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Close -->
+    <!-- ===================================================== -->
+    <symbol id="close" viewBox="0 0 24 24">
+        <path d="M6 6L18 18M18 6L6 18"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Arrow Right -->
+    <!-- ===================================================== -->
+    <symbol id="arrow-right" viewBox="0 0 24 24">
+        <path d="M5 12H19"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"/>
+        <path d="M13 6L19 12L13 18"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Shield -->
+    <!-- ===================================================== -->
+    <symbol id="shield" viewBox="0 0 24 24">
+        <path d="M12 3L19 6V11C19 16 16 20 12 21C8 20 5 16 5 11V6L12 3Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Lock -->
+    <!-- ===================================================== -->
+    <symbol id="lock" viewBox="0 0 24 24">
+        <rect x="5" y="11"
+              width="14"
+              height="10"
+              rx="2"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+        <path d="M8 11V8A4 4 0 0 1 16 8V11"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Cloud -->
+    <!-- ===================================================== -->
+    <symbol id="cloud" viewBox="0 0 24 24">
+        <path d="M18 18H8A4 4 0 1 1 9 10
+                 A5 5 0 1 1 18 18Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Network -->
+    <!-- ===================================================== -->
+    <symbol id="network" viewBox="0 0 24 24">
+        <circle cx="12" cy="5" r="2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"/>
+
+        <circle cx="5" cy="18" r="2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"/>
+
+        <circle cx="19" cy="18" r="2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"/>
+
+        <path d="M12 7V12
+                 M12 12L5 16
+                 M12 12L19 16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Server -->
+    <!-- ===================================================== -->
+    <symbol id="server" viewBox="0 0 24 24">
+        <rect x="4" y="4"
+              width="16"
+              height="6"
+              rx="1"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+        <rect x="4" y="14"
+              width="16"
+              height="6"
+              rx="1"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+        <circle cx="7" cy="7" r="1"
+                fill="currentColor"/>
+
+        <circle cx="7" cy="17" r="1"
+                fill="currentColor"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Support -->
+    <!-- ===================================================== -->
+    <symbol id="support" viewBox="0 0 24 24">
+        <path d="M6 11V10A6 6 0 0 1 18 10V11"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+        <rect x="4"
+              y="11"
+              width="3"
+              height="6"
+              rx="1"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+        <rect x="17"
+              y="11"
+              width="3"
+              height="6"
+              rx="1"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+        <path d="M20 17C20 19 18 20 16 20H13"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Email -->
+    <!-- ===================================================== -->
+    <symbol id="mail" viewBox="0 0 24 24">
+        <rect x="3"
+              y="5"
+              width="18"
+              height="14"
+              rx="2"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+        <path d="M3 7L12 13L21 7"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Phone -->
+    <!-- ===================================================== -->
+    <symbol id="phone" viewBox="0 0 24 24">
+        <path d="M6 4
+                 C6 15 15 18 20 18
+                 L18 21
+                 C9 21 3 15 3 6
+                 Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- ===================================================== -->
+    <!-- Location -->
+    <!-- ===================================================== -->
+    <symbol id="location" viewBox="0 0 24 24">
+        <path d="M12 21
+                 C16 16
+                 19 13
+                 19 9
+                 A7 7 0 1 0 5 9
+                 C5 13 8 16 12 21Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"/>
+
+        <circle cx="12"
+                cy="9"
+                r="2.5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"/>
+    </symbol>
+
+</svg>

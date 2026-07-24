@@ -1,0 +1,33 @@
+{
+  "name": "Kalpavriksha SecureTech Innovations",
+  "short_name": "Kalpavriksha",
+  "description": "Enterprise IT Infrastructure, Cybersecurity, Cloud Solutions, Networking, Managed IT Services and Digital Transformation.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0F4C81",
+  "lang": "en-IN",
+
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/logo-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

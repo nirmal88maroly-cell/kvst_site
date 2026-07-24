@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 800 800"
+    width="800"
+    height="800">
+
+    <defs>
+
+        <!-- Brand Gradient -->
+        <linearGradient id="blobGradient"
+                        x1="0%"
+                        y1="0%"
+                        x2="100%"
+                        y2="100%">
+            <stop offset="0%" stop-color="#67B246"/>
+            <stop offset="50%" stop-color="#2F7DBA"/>
+            <stop offset="100%" stop-color="#0F4C81"/>
+        </linearGradient>
+
+        <!-- Soft Blur -->
+        <filter id="blur">
+            <feGaussianBlur stdDeviation="30"/>
+        </filter>
+
+    </defs>
+
+    <!-- Organic Blob -->
+    <path
+        fill="url(#blobGradient)"
+        opacity="0.18"
+        filter="url(#blur)"
+        d="
+        M628,408
+        C635,523 560,629 446,666
+        C341,700 216,662 154,569
+        C92,476 89,338 155,240
+        C219,145 339,100 454,131
+        C576,164 653,278 628,408
+        Z
+        "/>
+
+    <!-- Decorative Circles -->
+    <circle
+        cx="170"
+        cy="200"
+        r="12"
+        fill="#67B246"
+        opacity="0.45"/>
+
+    <circle
+        cx="620"
+        cy="250"
+        r="10"
+        fill="#2F7DBA"
+        opacity="0.40"/>
+
+    <circle
+        cx="610"
+        cy="610"
+        r="16"
+        fill="#0F4C81"
+        opacity="0.30"/>
+
+    <circle
+        cx="250"
+        cy="650"
+        r="8"
+        fill="#67B246"
+        opacity="0.45"/>
+
+    <!-- Accent Lines -->
+    <path
+        d="M220 250 Q400 120 580 260"
+        stroke="#67B246"
+        stroke-width="2"
+        opacity="0.18"
+        fill="none"/>
+
+    <path
+        d="M180 520 Q400 700 620 500"
+        stroke="#2F7DBA"
+        stroke-width="2"
+        opacity="0.18"
+        fill="none"/>
+
+</svg>
