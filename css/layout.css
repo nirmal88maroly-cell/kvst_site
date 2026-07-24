@@ -17,7 +17,7 @@ body{font-family:var(--font-family-base);font-size:var(--font-size-md);line-heig
 .stats,.footer-grid{display:grid;gap:var(--space-5);}
 .stats{grid-template-columns:repeat(4,1fr);}
 .footer-grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));}
-header{position:sticky;top:0;z-index:var(--z-header);background:var(--color-bg);border-bottom:1px solid var(--color-border);}
+header{position:sticky;top:0;z-index:var(--z-header);background:#abacda;border-bottom:1px solid var(--color-border);}
 nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:var(--space-5);}
 .nav-links{display:flex;gap:var(--space-5);align-items:center;}
 .hero-buttons{display:flex;gap:var(--space-4);flex-wrap:wrap;margin-top:var(--space-6);}
