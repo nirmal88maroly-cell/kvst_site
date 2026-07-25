@@ -134,7 +134,7 @@ select{
    Hero Phrase Sequence (Home page)
    12s loop — pure opacity, no movement.
    Schedule: phrase1 0→0.8s | phrase2 1.4→2.2s | phrase3 2.8→3.6s
-   phrase4 4.2→5.0s | logo 5.6→6.4s | hold until 9.9s
+   phrase4 4.2→5.0s | logo 5.6→6.4s | final text 7.0→7.8s | hold until 9.9s
    | fade out 9.9→10.7s | blank 10.7→12s | loop
 ========================================================== */
 
@@ -178,8 +178,17 @@ select{
   100%{opacity:0;}
 }
 
+@keyframes heroFinalText{
+  0%,58.33%{opacity:0;}
+  65%{opacity:1;}
+  82.5%{opacity:1;}
+  89.17%{opacity:0;}
+  100%{opacity:0;}
+}
+
 .hero-phrase,
-.hero-logo-reveal{
+.hero-logo-reveal,
+.hero-final-text{
   opacity:0;
 }
 
@@ -188,6 +197,7 @@ select{
 .hero-phrase-3{animation:heroPhrase3 12s ease infinite;}
 .hero-phrase-4{animation:heroPhrase4 12s ease infinite;}
 .hero-logo-reveal{animation:heroLogoReveal 12s ease infinite;}
+.hero-final-text{animation:heroFinalText 12s ease infinite;}
 
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce){
@@ -199,7 +209,8 @@ select{
   }
 
   .hero-phrase,
-  .hero-logo-reveal{
+  .hero-logo-reveal,
+  .hero-final-text{
     opacity:1 !important;
   }
 }

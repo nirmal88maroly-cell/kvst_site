@@ -1,4 +1,4 @@
-# Kalpavriksha SecureTech Innovations Website
+# Kalpavriksha SecureTech Innovation Website
 
 ## Project Overview
 
@@ -50,8 +50,11 @@ KVSecureTech/
 │   └── main.js
 │
 ├── assets/
-│   ├── logo.svg
-│   ├── favicon.svg
+│   ├── logo.png
+│   ├── favicon.png
+│   ├── favicon-192.png
+│   ├── apple-touch-icon.png
+│   ├── logo-icon-512.png
 │   ├── pattern.svg
 │   ├── blob.svg
 │   └── icons.svg
@@ -104,15 +107,15 @@ KVSecureTech/
 **v1.0**
 
 
-# Kalpavriksha SecureTech Innovations Website
+# Kalpavriksha SecureTech Innovation Website
 
-Official website for **Kalpavriksha SecureTech Innovations**, developed using HTML5, CSS3, and Vanilla JavaScript.
+Official website for **Kalpavriksha SecureTech Innovation**, developed using HTML5, CSS3, and Vanilla JavaScript.
 
 ---
 
 ## Overview
 
-Kalpavriksha SecureTech Innovations is an IT solutions and digital transformation company providing enterprise-grade services in networking, cybersecurity, cloud computing, IT infrastructure, software solutions, and managed services.
+Kalpavriksha SecureTech Innovation is an IT solutions and digital transformation company providing enterprise-grade services in networking, cybersecurity, cloud computing, IT infrastructure, software solutions, and managed services.
 
 This website is designed to be:
 
@@ -158,8 +161,11 @@ kvst_site/
 │   └── main.js
 │
 ├── assets/
-│   ├── logo.svg
-│   ├── favicon.svg
+│   ├── logo.png
+│   ├── favicon.png
+│   ├── favicon-192.png
+│   ├── apple-touch-icon.png
+│   ├── logo-icon-512.png
 │   ├── pattern.svg
 │   ├── blob.svg
 │   └── icons.svg
@@ -285,10 +291,10 @@ See the `LICENSE` file for details.
 
 ## Developed For
 
-**Kalpavriksha SecureTech Innovations**
+**Kalpavriksha SecureTech Innovation**
 
 Enterprise IT Infrastructure • Cybersecurity • Cloud Solutions • Networking • Managed IT Services • Digital Transformation
 
 ---
 
-© 2026 Kalpavriksha SecureTech Innovations. All Rights Reserved.# kvst_site
+© 2026 Kalpavriksha SecureTech Innovation. All Rights Reserved.# kvst_site

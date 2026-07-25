@@ -32,6 +32,7 @@ p{
 .nav-links a{
     padding:.5rem;
     font-weight:var(--font-weight-medium);
+    color:var(--color-primary-dark);
     transition:color var(--transition-fast);
 }
 
@@ -61,7 +62,7 @@ p{
     display:block;
     width:100%;
     height:2px;
-    background:var(--color-heading);
+    background:var(--color-primary-dark);
     border-radius:var(--radius-pill);
     transition:transform var(--transition-fast), opacity var(--transition-fast);
 }
@@ -247,10 +248,23 @@ footer a:hover{
     margin:0;
 }
 
+.hero-logo-block{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:var(--space-3);
+    text-align:center;
+}
+
 .hero-logo-reveal{
     height:120px;
     width:auto;
     flex-shrink:0;
+}
+
+.hero-logo-block .hero-final-text{
+    color:var(--color-primary);
+    margin-bottom:0;
 }
 
 /* Responsive */
