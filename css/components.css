@@ -1,6 +1,6 @@
 /* ==========================================================================
    components.css
-   KV SecureTech Innovations
+   KV SecureTech Innovation
    Reusable UI Components
    ========================================================================== */
 
@@ -81,7 +81,7 @@ p{
     align-items:center;
     justify-content:center;
     background:var(--color-primary);
-    color:#b8b4e5;
+    color:#ffffff;
     border-radius:50%;
     font-size:1.25rem;
     line-height:1;

@@ -1,6 +1,6 @@
 /**
  * ==========================================================
- * KV SecureTech Innovations
+ * KV SecureTech Innovation
  * Main JavaScript
  * Version: 1.1
  * ==========================================================
@@ -343,7 +343,7 @@ document.addEventListener("keyup", e => {
 ========================================================== */
 
 console.log(
-    "%cKV SecureTech Innovations",
+    "%cKV SecureTech Innovation",
     "color:#0057B8;font-size:18px;font-weight:bold;"
 );
 

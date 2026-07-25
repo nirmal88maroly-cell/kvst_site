@@ -3,7 +3,7 @@
 ## Project Overview
 
 This repository contains the official corporate website for **KV
-SecureTech Innovations**.
+SecureTech Innovation**.
 
 The objective is to build a modern, responsive, accessible, and
 production-ready website using only:

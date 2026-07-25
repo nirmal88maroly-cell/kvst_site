@@ -1,6 +1,6 @@
 # ==========================================================
 # robots.txt
-# Kalpavriksha SecureTech Innovations
+# Kalpavriksha SecureTech Innovation
 # https://www.kvsecuretech.com/
 # ==========================================================
 

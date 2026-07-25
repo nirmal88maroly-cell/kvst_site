@@ -106,4 +106,4 @@ and uses
 
 ---
 
-© 2026 Kalpavriksha SecureTech Innovations. All rights reserved.
+© 2026 Kalpavriksha SecureTech Innovation. All rights reserved.
